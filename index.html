@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-4JzV5Fnd7nHJ0q3lchQ4Iw5ExaU1EW2H8/eBEeFzvQZI8u5FLB/Xc8eLcEfVJ3ifEeSjiUW0hnJ0LiIBaZ/HXg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Todos</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="form-container">
+            <input type="text" id="taskInput" placeholder="Enter your task">
+            <button id="addTaskBtn"><i class="fas fa-plus"></i> Add Task</button>
+        </div>
+        <div class="task-container">
+            <div class="pending-task">
+                <h2>Pending Tasks</h2>
+                <ul id="pendingList" class="task-list">
+                </ul>
+            </div>
+            <div class="completed-task">
+                <h2>Completed Tasks</h2>
+                <ul id="completedList" class="completed-list">
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
